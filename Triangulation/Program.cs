@@ -41,7 +41,7 @@ namespace Triangulation{
             var distToA = 8f;
             var distToB = 5f;
             var distToC = 5f;
-            getPosition(posA, posB, posC, distToA, distToB, distToC);
+            Vector2 x = getPosition(posA, posB, posC, distToA, distToB, distToC);
             Console.ReadLine();
         }
 
